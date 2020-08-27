@@ -36,7 +36,7 @@ export default class CicloDeVida extends Component {
         console.log("Se ejecuto el render")
         return (
             <article>
-                <button onClick={this.cambiarStateNombre}>Cambiar Estado</button>
+                <button onClick={this.cambiarStateNombre}>Cambiar Estados</button>
                 <p>Hola desde class component</p>
                 <p><b>Nombre: </b> {this.state.nombre}</p>
 
